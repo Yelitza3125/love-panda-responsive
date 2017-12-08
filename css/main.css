@@ -1,0 +1,112 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+.main {
+    background-color: #f48c68;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: right;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+}
+
+.panda-image {
+    filter: grayscale(100%);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.panda-principal {
+    background-image: url("../assets/img/uno.jpg");
+}
+
+.pinky-line {
+    height: 20px;
+    background-color: #f48c68;
+}
+
+.green-text {
+    padding: 40px 0;
+    background-color: #36a8ac;
+}
+
+.green-text .col-xs-8 {
+    background-color: #f39575;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.green-text .col-xs-8 h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.panda-2 {
+    background-image: url("../assets/img/dos.jpg");
+    height: 700px;
+}
+
+.panda-galery {
+    border: 10px solid #fff;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.panda-3 {
+    background-image: url("../assets/img/tres.jpg");
+    height: 600px;
+}
+
+footer {
+    color: #fff;
+    text-align: right;
+    background-color: #f48c68;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .panda-galery  {
+    border: 2px solid #fff;
+  }
+
+  .green-text .col-xs-8 {
+    background-color: rgb(185, 174, 174);
+  }
+
+  .gallery .col-xs-3 {
+      margin: 0 auto;
+      margin-left: 25%;
+      clear: both;
+      width: 50%;
+  }
+
+  .col-xs-3 img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .main{
+    text-align: center;
+}
+   .main h1 {
+    margin-bottom: 20px;
+
+  }
+  
+}
